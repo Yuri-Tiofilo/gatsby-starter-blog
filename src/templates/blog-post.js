@@ -1,7 +1,7 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
+import { FiLinkedin, FiGithub } from "react-icons/fi"
 
-import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
@@ -30,8 +30,25 @@ const BlogPostTemplate = ({ data, location }) => {
           itemProp="articleBody"
         />
         <hr />
-        <footer>
-          <Bio />
+        <footer className="footer">
+          <div>Gostou? Agradeço por ter lido até aqui, Att Yuri</div>
+
+          <div style={{ marginTop: 10 }}>
+            <a
+              style={{ textDecoration: "none" }}
+              href="https://www.linkedin.com/in/%F0%9F%A7%91%F0%9F%8F%BB%E2%80%8D%F0%9F%92%BB-yuri-ti%C3%B3filo-silva-863806185/"
+            >
+              <FiLinkedin />{" "}
+              <span style={{ color: "#000000" }}>Yuri Silva</span>
+            </a>
+            <a
+              style={{ textDecoration: "none", marginLeft: 10 }}
+              href="https://github.com/Yuri-Tiofilo"
+            >
+              <FiGithub />{" "}
+              <span style={{ color: "#000000" }}>Yuri Silva</span>
+            </a>
+          </div>
         </footer>
       </article>
       <nav className="blog-post-nav">

@@ -36,19 +36,18 @@ const Bio = () => {
         className="bio-avatar"
         layout="fixed"
         formats={["auto", "webp", "avif"]}
-        src="../images/profile-pic.png"
+        src="https://avatars.githubusercontent.com/u/49408968?v=4"
         width={50}
         height={50}
         quality={95}
         alt="Profile picture"
       />
+      {author?.name && <strong>{author.name}</strong>}
+      <span>Develop Fullstack in Typescript.</span>
+      <span style={{paddingTop: 10}}>Frameworks: React, React Native, Angular, NodeJS.</span>
       {author?.name && (
         <p>
-          Written by <strong>{author.name}</strong> {author?.summary || null}
-          {` `}
-          <a href={`https://twitter.com/${social?.twitter || ``}`}>
-            You should follow them on Twitter
-          </a>
+          Blog totalmente voltado a programação
         </p>
       )}
     </div>
