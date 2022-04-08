@@ -62,3 +62,29 @@ Utilizado para fazer entradas de dados que vem do usuário e que deve ser semân
 |                         |                                                                     |
 | ``<!--...--> ``         | Define comentário no html                                           |
 
+###### Tags para Formularios
+
+Utilizado para fazer entradas de dados que vem do usuário e que deve ser semântico quanto aos motores de buscas de Google. Essas tasg podem dar ações.
+
+| TAG    	                | Descrição                                                           |
+|:------------------------|:--------------------------------------------------------------------|
+| ``<form> ``             | Define um formulário, que pode executar uma ação de get, set e post |
+|                         |                                                                     |
+| ``<html> ``             | Defini um documento HTML                                            |
+|                         |                                                                     |
+| ``<title> ``            | Define o título da página                                           |
+|                         |                                                                     |
+| ``<h1> ``               | Define UM Cabeçalho                                                 |
+|                         |                                                                     |
+| ``<h1>  até <h6>``      | Define o corpo da página                                            |
+|                         |                                                                     |
+| ``<p> ``                | Define um parágrafo                                                 |
+|                         |                                                                     |
+| ``<br> ``               | Define uma quebra de linha                                          |
+|                         |                                                                     |
+| ``<hr> ``               | Define uma quebra temática entre elementos de nivél de paragrafo    |
+|                         |                                                                     |
+| ``<head> ``             | Contêm as informações do documento(metadados)                       |
+|                         |                                                                     |
+| ``<!--...--> ``         | Define comentário no html                                           |
+
