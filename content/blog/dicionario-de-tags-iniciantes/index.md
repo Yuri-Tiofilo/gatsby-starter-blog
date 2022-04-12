@@ -6,6 +6,4 @@ description: Tags HTML importantes que você vai precisar no seu dia a dia. Salv
 
 #### Tags HTML importantes que você vai precisar no seu dia a dia. Salva logo esse link nos seus favoritos para sempre ter aonde buscar uma referência.
 
-Bora lá então?
-
 em breve...
