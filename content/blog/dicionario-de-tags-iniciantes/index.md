@@ -102,15 +102,21 @@ São tags que vão ajudar na indexação do seu site e nos motores de busca do G
 
 | TAG    	                | Descrição                                                           |
 |:------------------------|:--------------------------------------------------------------------|
-| ``<img> ``              | Define uma imagem                                                   |
+| ``<section> ``          | Define seções de um documento                                       |
 |                         |                                                                     |
-| ``<figure> ``           | Define um conteúdo auto-contido ou independente                     |
+| ``<main> ``             | Define o conteúdo principal da página                               |
 |                         |                                                                     |
-| ``<figcaption> ``       | Define uma legenda para o ``figure``                                |
+| ``<nav> ``              | Define um grupo de links de navegação                               |
 |                         |                                                                     |
-| ``<svg> ``              | Define um container para gráficos SVG                               |
+| ``<aside> ``            | Define um conteúdo com sentido independente                         |
 |                         |                                                                     |
-| ``<picture>``           | Define um container para múltiplas fontes de imagens                |
+| ``<footer>``            | Define um rodapé para o site ou de uma seção                        |
+|                         |                                                                     |
+| ``<header>``            | Define um cabeçalho de documento ou seção                           |
+
+
+Se você gostou já sabe, acompanha que vem novidade...
+
 
 ###### Referências
 
