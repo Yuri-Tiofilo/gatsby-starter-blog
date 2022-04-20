@@ -8,7 +8,7 @@ description: Tags HTML importantes que você vai precisar no seu dia a dia. Salv
 
 Bora lá então?
 
-###### Tags Geral
+##### Tags Geral
 
 Tags gerais que vão ser a base do seu HTML e dessa forma irão dar formato a sua pagina, são tags que muitas vezes não são visiveis ao usuário, porém são importantes para semântica.
 
@@ -36,55 +36,83 @@ Tags gerais que vão ser a base do seu HTML e dessa forma irão dar formato a su
 | ``<!--...--> ``         | Define comentário no html                                        |
 
 
-###### Tags para Formularios
+##### Tags para Formularios
 
 Utilizado para fazer entradas de dados que vem do usuário e que deve ser semântico quanto aos motores de buscas de Google. Essas tasg podem dar ações.
+
 
 | TAG    	                | Descrição                                                           |
 |:------------------------|:--------------------------------------------------------------------|
 | ``<form> ``             | Define um formulário, que pode executar uma ação de get, set e post |
 |                         |                                                                     |
-| ``<html> ``             | Defini um documento HTML                                            |
+| ``<input> ``            | Campo para receber dados do usuário                                 |
 |                         |                                                                     |
-| ``<title> ``            | Define o título da página                                           |
+| ``<textarea> ``         | Define um campo de area de texto para receber dados do usuário      |
 |                         |                                                                     |
-| ``<h1> ``               | Define UM Cabeçalho                                                 |
+| ``<button> ``           | Define um botão clicável                                            |
 |                         |                                                                     |
-| ``<h1>  até <h6>``      | Define o corpo da página                                            |
+| ``<select>``            | Define um seletor em formato de lista                               |
 |                         |                                                                     |
-| ``<p> ``                | Define um parágrafo                                                 |
+| ``<option> ``           | Defini uma opção dentro de um elemento ``<select>``                 |
 |                         |                                                                     |
-| ``<br> ``               | Define uma quebra de linha                                          |
+| ``<label> ``            | Define um rótulo para o elemento de ``<input>``                    |
 |                         |                                                                     |
-| ``<hr> ``               | Define uma quebra temática entre elementos de nivél de paragrafo    |
-|                         |                                                                     |
-| ``<head> ``             | Contêm as informações do documento(metadados)                       |
-|                         |                                                                     |
-| ``<!--...--> ``         | Define comentário no html                                           |
+| ``<fieldset> ``         | Define uma relação de grupos de elementos de um formulário          |
 
-###### Tags para Formularios
 
-Utilizado para fazer entradas de dados que vem do usuário e que deve ser semântico quanto aos motores de buscas de Google. Essas tasg podem dar ações.
+##### Tags para Formatações
+
+O enhanced 3270 user interface suporta o uso de um pequeno subconjunto de tags HTML e algumas tags de proprietário que podem ser usadas para formatar o texto especificado usando a palavra-chave TEXT em um subpainel de type=TEXT.
+
 
 | TAG    	                | Descrição                                                           |
 |:------------------------|:--------------------------------------------------------------------|
-| ``<form> ``             | Define um formulário, que pode executar uma ação de get, set e post |
+| ``<abbr> ``             | Define uma abreviação ou acronimo                                   |
 |                         |                                                                     |
-| ``<html> ``             | Defini um documento HTML                                            |
+| ``<b> ``                | Define texto em negrito sem peso semântico                          |
 |                         |                                                                     |
-| ``<title> ``            | Define o título da página                                           |
+| ``<strong> ``           | Define texto em negrito com peso semântico                          |
 |                         |                                                                     |
-| ``<h1> ``               | Define UM Cabeçalho                                                 |
+| ``<code> ``             | Define um pedaço de código de programação                           |
 |                         |                                                                     |
-| ``<h1>  até <h6>``      | Define o corpo da página                                            |
+| ``<em>``                | Utilizado para dar enfase em um texto                               |
 |                         |                                                                     |
-| ``<p> ``                | Define um parágrafo                                                 |
+| ``<q> ``                | Defini uma citação                                                  |
+
+
+##### Tag para Imagens
+
+Essas tags são utilizadas para inserir imagens ou outros tipos de animações. Neste caso temos que se atentar para a descrição de cada uma para que assim seja utilizado as tags corretas.
+
+| TAG    	                | Descrição                                                           |
+|:------------------------|:--------------------------------------------------------------------|
+| ``<img> ``              | Define uma imagem                                                   |
 |                         |                                                                     |
-| ``<br> ``               | Define uma quebra de linha                                          |
+| ``<figure> ``           | Define um conteúdo auto-contido ou independente                     |
 |                         |                                                                     |
-| ``<hr> ``               | Define uma quebra temática entre elementos de nivél de paragrafo    |
+| ``<figcaption> ``       | Define uma legenda para o ``figure``                                |
 |                         |                                                                     |
-| ``<head> ``             | Contêm as informações do documento(metadados)                       |
+| ``<svg> ``              | Define um container para gráficos SVG                               |
 |                         |                                                                     |
-| ``<!--...--> ``         | Define comentário no html                                           |
+| ``<picture>``           | Define um container para múltiplas fontes de imagens                |
+
+##### Tags importantes para semânticas
+
+São tags que vão ajudar na indexação do seu site e nos motores de busca do Google.
+
+| TAG    	                | Descrição                                                           |
+|:------------------------|:--------------------------------------------------------------------|
+| ``<img> ``              | Define uma imagem                                                   |
+|                         |                                                                     |
+| ``<figure> ``           | Define um conteúdo auto-contido ou independente                     |
+|                         |                                                                     |
+| ``<figcaption> ``       | Define uma legenda para o ``figure``                                |
+|                         |                                                                     |
+| ``<svg> ``              | Define um container para gráficos SVG                               |
+|                         |                                                                     |
+| ``<picture>``           | Define um container para múltiplas fontes de imagens                |
+
+###### Referências
+
+https://www.ibm.com/docs/pt-br/om-shared?topic=SSAUBV/com.ibm.omegamon_share.doc_6.3.0.2/e3270/panels_formattext_beacon.htm
 
