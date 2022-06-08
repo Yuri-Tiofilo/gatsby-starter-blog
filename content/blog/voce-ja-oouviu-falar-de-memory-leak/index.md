@@ -4,8 +4,6 @@ date: "2022-06-05T12:00:32.169Z"
 description: Você já ouviu falar de Memory Leak? Não? Então bora ver do que se trata isso.
 ---
 
-# Memory Leak
-
 Um vazamento de memória (Memory leak) é um tipo de vazamento de recursos que ocorre quando um programa de computador gerencia incorretamente as alocações de memória de forma que a memória que não é mais necessária não é liberada. Ou seja a memória além ser preenchida não tem o seu devido espaço liberado, quando ão mais necessária. Um vazamento de memória também pode ocorrer quando um objeto é armazenado na memória, mas não pode ser acessado pelo código em execução. Simplificando, diz-se que um vazamento de memória ocorre sempre que existem dados inacessíveis ou não referenciados na memória.
 
 De modo geral ela prejudica o desempenho do projeto, pois ela:
