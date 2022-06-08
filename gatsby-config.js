@@ -5,7 +5,7 @@ module.exports = {
       name: `Yuri Silva`,
       summary: `Escrito por Yuri Silva`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `Blog para desenvolvimento da comunidade de TI`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
       twitter: `kylemathews`,
