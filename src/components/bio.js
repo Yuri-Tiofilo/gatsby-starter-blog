@@ -32,8 +32,8 @@ const Bio = () => {
         alt="Profile picture"
       />
       {author?.name && <strong>{author.name}</strong>}
-      <span>Develop Fullstack in Typescript.</span>
-      <span style={{paddingTop: 10}}>Frameworks: React, React Native, Angular, NodeJS.</span>
+      <span>Develop Fullstack in Javascript and Typescript.</span>
+      <span style={{paddingTop: 10}}>Frameworks: React, NextJS, React Native, Angular, NodeJS.</span>
       {author?.name && (
         <p>
           Blog totalmente voltado a programação
